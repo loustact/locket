@@ -15,7 +15,8 @@
         [
             "THORIUM.BAT",
             "Thorium-win",
-            "BIN\thorium.exe"
+            "",
+            "BIN\\thorium.exe"
         ]
     ],
     "persist": "USER_DATA",
