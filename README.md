@@ -1,6 +1,6 @@
 # Locket
 
-[![Tests](https://github.com/loustact/loucket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/loucket/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) 
+[![Tests](https://github.com/loustact/loucket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/loucket/actions/workflows/ci.yml) [![Excavator](https://github.com/loustact/locket/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) 
 
 Personal Bucket for [Scoop](https://scoop.sh).
 
