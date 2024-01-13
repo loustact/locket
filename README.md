@@ -9,9 +9,9 @@ Personal bucket for [Scoop.](https://scoop.sh)
 ```powershell
 To install: scoop bucket add locket https://github.com/loustact/locket/
 
-To add manifests: scoop install locket/<manifest>
+To add/remove manifests: scoop install/uninstall locket/<manifest>
 
 To uninstall: scoop bucket rm locket
 ```
 
-If manifest name does not conflict with other buckets being used, you can also do `scoop install <manifest>`
+If manifest name does not conflict with other buckets being used, you can also do `scoop install/uninstall <manifest>`
