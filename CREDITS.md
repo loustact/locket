@@ -10,7 +10,7 @@
    - License: `Unlicense`
    - Manifests:
       - Mercury
-      - Mercury-AVX (Based off of the other manifest)
+      - Mercury-AVX, Mercury-AVX2 (Based off of the other manifest)
 
 - [Extras](https://github.com/ScoopInstaller/Extras)
    - License: `Unlicense`
