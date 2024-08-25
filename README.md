@@ -18,4 +18,4 @@ If manifest name does not conflict with other buckets being used, you can also d
 
 ## Credits
 
-For credits, see the dedicated [file.](./CREDITS.md)
+For credits for manifests taken from other buckets, please see the dedicated [file](./CREDITS.md).

@@ -17,3 +17,8 @@
    - Manifests (Took install parameters):
       - Thorium
       - Thorium-AVX2
+
+- [Ladle](https://github.com/windedge/ladle-bucket)
+   - License: `Unlicense`
+   - Manifests:
+      - Zen-Browser
