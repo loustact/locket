@@ -18,7 +18,7 @@
       - Thorium
       - Thorium-AVX2
 
-- [Ladle](https://github.com/windedge/ladle-bucket)
+- [Grain](https://github.com/Bobrokus/grain)
    - License: `Unlicense`
    - Manifests:
       - Zen-Browser
