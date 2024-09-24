@@ -6,6 +6,7 @@
     "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.4/zen.win-specific.zip",
     "hash": "a9b70dc383b33764c1703932f9b15aef6f4425550baeaca3bab106b1a5a4387b",
     "extract_dir": "zen.win-specific/zen",
+	"bin": "zen.exe",
     "post_install": [
         "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
@@ -14,7 +15,6 @@
         "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
         "}"
     ],
-    "bin": "zen.exe",
     "shortcuts": [
         [
             "zen.exe",
