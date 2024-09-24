@@ -15,8 +15,8 @@
 - [Extras](https://github.com/ScoopInstaller/Extras)
    - License: `Unlicense`
    - Manifests (Took install parameters):
-      - Thorium
-      - Thorium-AVX2
+      - Thorium (also applied in Thorium-AVX2)
+      - Firefox (for Zen-Browser)
 
 - [Grain](https://github.com/Bobrokus/grain)
    - License: `Unlicense`
