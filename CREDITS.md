@@ -16,7 +16,7 @@
    - License: `Unlicense`
    - Manifests (Took install parameters):
       - Thorium (also applied in Thorium-AVX2)
-	  - Firefox (for Zen-Browser)
+      - Firefox (for Zen-Browser)
 
 - [Grain](https://github.com/Bobrokus/grain)
    - License: `Unlicense`
