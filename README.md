@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> To anyone who used the repo beforehand, I stupidly deleted the original as I became deranged troubleshooting Zen Browser's auto-update (Two of the dotfiles were pushing out errors, so I thought a refresh was the safe option.). Please re-add the repo if you wish to still use it. Uninstalling and reinstalling manifests shouldn't affect your browser profiles.
+> To anyone who used the repo beforehand, I stupidly deleted the original as I became deranged troubleshooting Zen Browser's auto-update (still not fixed, goddamn). Please re-add the repo if you wish to still use it. Uninstalling and reinstalling manifests shouldn't affect your browser profiles.
 
 # Locket
 
