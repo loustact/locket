@@ -34,4 +34,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_AVX2_$version.zip"
+    }
 }

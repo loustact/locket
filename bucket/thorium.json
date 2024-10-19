@@ -27,7 +27,6 @@
     ],
     "env_set": {
         "CHROME_EXECUTABLE": "$dir\\thorium.exe"
-    }
     },
     "checkver": {
         "github": "https://github.com/Alex313031/Thorium-Win",
@@ -35,4 +34,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
+    }
 }
