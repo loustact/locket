@@ -5,7 +5,7 @@
 
 [![Tests](https://github.com/loustact/locket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/ci.yml) [![Excavator](https://github.com/loustact/locket/actions/workflows/excavator.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/excavator.yml)
 
-Personal bucket for [Scoop](https://scoop.sh) when I need programs unavailable at official buckets.
+Personal bucket full off frankenstein'd manifests for [Scoop](https://scoop.sh) when I need programs unavailable at official buckets.
 
 ## Usage
 
