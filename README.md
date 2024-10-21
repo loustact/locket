@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> To anyone who used the repo beforehand, I stupidly deleted the original as I became deranged troubleshooting Zen Browser's auto-update (finally fixed :D). Please re-add the repo if you wish to still use it. Uninstalling and reinstalling manifests shouldn't affect your browser profiles.
-
 # Locket
 
 [![Tests](https://github.com/loustact/locket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/ci.yml) [![Excavator](https://github.com/loustact/locket/actions/workflows/excavator.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/excavator.yml)
