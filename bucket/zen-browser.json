@@ -17,15 +17,35 @@
             "hash": "82d2cd999170e7efe29fe498059e297d6428b6d83ac657c9bd33eea0f133539b"
         }
     },
-    "bin": "zen.exe",
-    "post_install": [
-        "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
-        "$Addition = \"$persist_dir\\addition\"",
-        "if (Test-Path $Addition) {",
-        "  info 'Copying additional items...'",
-        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
-        "}"
+    "bin": [
+        "zen.exe",
+		"zen"
+	],
+    "pre_install": [
+        "$extractDir = \"$dir\"",
+        "if (Test-Path \"$extractDir\\core\") {",
+        "    # Move all files in the core folder to the unzipped directory",
+        "    Move-Item -Path \"$extractDir\\core\\*\" -Destination \"$extractDir\" -Force",
+        "    # Delete the core folder",
+        "    Remove-Item -Path \"$extractDir\\core\" -Recurse -Force",
+        "}",
+        "$bucket=(scoop bucket list | where-Object { $_.Source -match 'locket'})[0].Name",
+        "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name $bucket) scripts/AirUtils.psm1)",
+        "RedirectDirectory \"$env:APPDATA\\zen\" \"$persist_dir\\Roaming\\zen\"",
+        "RedirectDirectory \"$env:LOCALAPPDATA\\zen\" \"$persist_dir\\Local\\zen\"",
+        "Remove-Module -Name AirUtils"
     ],
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    $bucket=(scoop bucket list | where-Object { $_.Source -match 'locket'})[0].Name",
+            "    Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name $bucket) scripts/AirUtils.psm1)",
+            "    RemoveJunction \"$env:APPDATA\\zen\"",
+            "    RemoveJunction \"$env:LOCALAPPDATA\\zen\"",
+            "    Remove-Module -Name AirUtils",
+            "}"
+        ]
+    },
     "shortcuts": [
         [
             "zen.exe",

@@ -1,27 +1,36 @@
 # Credits
 
+Even if these buckets are still under `Unlicense`, I feel like it's still good practice to credit them.
+
 - [RU-School](https://github.com/alealexpro100/ru-school-scoop)
    - License: `Unlicense`
    - Manifests:
-      - Thorium
-      - Thorium-AVX2
+      - Thorium (and AVX2 manifest)
 
 - [Dank-Scoop](https://github.com/brian6932/dank-scoop)
    - License: `Unlicense`
    - Manifests:
-      - Mercury (Basis for Mercury-AVX & Mercury-AVX2)
+      - Mercury (Basis for the AVX-compiled manifests as well)
 
 - [Extras](https://github.com/ScoopInstaller/Extras)
    - License: `Unlicense`
-   - Manifests (Took install parameters):
-      - Thorium (also applied in Thorium-AVX2)
-      - Firefox (for Zen-Browser)
+   - Manifests:
+      - Thorium (*Install parameters,* also applied to the AVX2 manifest)
+      - Firefox (**Formerly,** *Install parameters* for Zen-Browser)
 
 - [Grain](https://github.com/Bobrokus/grain)
    - License: `Unlicense`
    - Manifests:
-      - Zen-Browser (used on older manifest)
+      - Zen-Browser (**Formerly,** used on older version of locket's manifest)
+
 - [Pail](https://github.com/niceEli/Pail/)
    - License: `Unlicense`
    - Manifests:
-      - Zen-Browser (Base of current manifest)
+      - Zen-Browser (Basis of current manifest)
+
+- [Scoop-Store](https://github.com/leic4u/Scoop-Store)
+   - License: `Unlicense`
+   - Manifests:
+      - Zen-Browser (*Install parameters*)
+   - Scripts:
+      - `AirUtils.psm1` (used by Zen-Browser)

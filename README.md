@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/loustact/locket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/ci.yml) [![Excavator](https://github.com/loustact/locket/actions/workflows/excavator.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/excavator.yml)
 
-Personal bucket full off frankenstein'd manifests for [Scoop](https://scoop.sh) when I need programs unavailable at official buckets.
+Personal bucket full off frankenstein'd manifests from other buckets for [Scoop](https://scoop.sh) when I need programs unavailable at official buckets.
 
 ## Usage
 
@@ -18,4 +18,4 @@ If manifest name does not conflict with other buckets being used, you can also d
 
 ## Credits
 
-For credits for manifests taken from other buckets, please see the dedicated [file](./CREDITS.md).
+This bucket takes manifests fully or partially from other buckets. The maintainer ensures to check if the provided licenses allow for such. In order to check credits for these buckets, please see the dedicated [file](./CREDITS.md).
