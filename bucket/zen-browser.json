@@ -19,8 +19,8 @@
     },
     "bin": [
         "zen.exe",
-		"zen"
-	],
+        "zen"
+    ],
     "pre_install": [
         "$extractDir = \"$dir\"",
         "if (Test-Path \"$extractDir\\core\") {",
