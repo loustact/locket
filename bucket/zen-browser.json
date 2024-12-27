@@ -5,8 +5,8 @@
     "license": "MPL-2.0",
     "notes": [
         "Use 'Zen Profile Manager' to deal with profiles",
-        "A profile called 'default' is already there should you use it."
-        "Tick the box to ensure the profile is used on start up."
+        "A profile called 'default' is already there should you use it.",
+        "Tick the box to ensure the profile is used on start up.",
         "Also, make sure to turn off the browser's auto-update :D"
     ],
     "architecture": {
