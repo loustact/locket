@@ -31,6 +31,6 @@ Even if these buckets are still under `Unlicense`, I feel like it's still good p
 - [Scoop-Store](https://github.com/leic4u/Scoop-Store)
    - License: `Unlicense`
    - Manifests:
-      - Zen-Browser (*Install parameters*)
+      - Zen-Browser (*Install parameters and* `checkver`)
    - Scripts:
       - `AirUtils.psm1` (used by Zen-Browser)
