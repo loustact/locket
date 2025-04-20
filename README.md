@@ -1,5 +1,8 @@
 # Locket
 
+!!! note
+    I don't use this anymore. I've moved on to [EndeavourOS](https://endeavouros.com/). If something breaks and needs support, it might be best to just fork or use other buckets instead.
+
 [![Tests](https://github.com/loustact/locket/actions/workflows/ci.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/ci.yml) [![Excavator](https://github.com/loustact/locket/actions/workflows/excavator.yml/badge.svg)](https://github.com/loustact/locket/actions/workflows/excavator.yml)
 
 Personal bucket full off frankenstein'd manifests from other buckets for [Scoop](https://scoop.sh) when I need programs unavailable at official buckets.
